@@ -13,13 +13,13 @@ struct DataController {
     static var preview: DataController = {
         let result = DataController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
+        for i in 0..<10 {
             let newItem = Item(context: viewContext)
             let randomHours = [1.0,1.5,2.0,2.5,3.0,3.5,4.0,4.5,5.0,5.5,6.0,6.5]
             newItem.timestamp = Date()
             newItem.time = randomHours.randomElement() ?? 3.0
             newItem.rate = Double.random(in: 15...25).rounded()
-            newItem.title = "Entry #"
+            newItem.title = "Entry \(i)"
             newItem.details = "Example Details"
             newItem.id = UUID()
             

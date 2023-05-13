@@ -46,6 +46,7 @@ struct ItemListView: View {
         withAnimation {
             let newItem = Item(context: viewContext)
             newItem.timestamp = Date()
+            newItem.id = UUID()
 
             do {
                 try viewContext.save()

@@ -13,7 +13,7 @@ struct KnowYourWorthApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ItemListView()
+            ContentView()
                 .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }

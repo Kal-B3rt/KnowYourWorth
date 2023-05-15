@@ -6,8 +6,9 @@
 //
 
 import CoreData
+import Foundation
 
-struct DataController {
+class DataController {
     static let shared = DataController()
 
     static var preview: DataController = {

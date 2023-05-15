@@ -14,19 +14,22 @@ struct ContentView: View {
         VStack(spacing: 0) {
             ZStack{
                 if selectedTab == .overview {
-                    EmptyView()
+                    OverviewView()
                 }
                 
                 if selectedTab == .list {
                     ItemListView()
                 }
             }
+            Spacer()
             TabBarView(selectedTab: $selectedTab)
+                .edgesIgnoringSafeArea(.bottom)
         }
+        
     }
 }
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
-        }
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
+}

@@ -8,19 +8,31 @@
 import SwiftUI
 
 struct NewTimeSheetView: View {
+    @Binding var FullScreenPresented: Bool
+    
     var body: some View {
-        
-        VStack(alignment: .leading){
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            XShape(lineWidth: 4, color: Color.primary)
-            LineShape(lineWidth: 4, lineColor: Color.primary)
+        NavigationView {
+            VStack {
+                TopNewTimerView()
+                    .padding()
+            }
+            .navigationBarTitle("New Time Sheet")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("Cancel") {
+                        FullScreenPresented = false
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
+
+
+
 struct NewTimeSheetView_Previews: PreviewProvider {
     static var previews: some View {
-        NewTimeSheetView()
+        NewTimeSheetView(FullScreenPresented: .constant(true))
     }
 }

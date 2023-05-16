@@ -10,6 +10,7 @@
 		3C6AB27E2A12B48D00D6F709 /* NewTimeSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AB27D2A12B48D00D6F709 /* NewTimeSheetView.swift */; };
 		3C6AB2812A12B56D00D6F709 /* XShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AB2802A12B56D00D6F709 /* XShape.swift */; };
 		3C6AB2852A12B77B00D6F709 /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AB2842A12B77B00D6F709 /* LineShape.swift */; };
+		3C6AB2872A12EEB900D6F709 /* TopNewTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AB2862A12EEB900D6F709 /* TopNewTimerView.swift */; };
 		3CE2C81C2A099DC0008B9EC1 /* KnowYourWorthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2C81B2A099DC0008B9EC1 /* KnowYourWorthApp.swift */; };
 		3CE2C81E2A099DC0008B9EC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2C81D2A099DC0008B9EC1 /* ContentView.swift */; };
 		3CE2C8202A099DC2008B9EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE2C81F2A099DC2008B9EC1 /* Assets.xcassets */; };
@@ -28,9 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3C6AB27D2A12B48D00D6F709 /* NewTimeSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimeSheetView.swift; sourceTree = "<group>"; };
+		3C6AB27D2A12B48D00D6F709 /* NewTimeSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimeSheetView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3C6AB2802A12B56D00D6F709 /* XShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XShape.swift; sourceTree = "<group>"; };
 		3C6AB2842A12B77B00D6F709 /* LineShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		3C6AB2862A12EEB900D6F709 /* TopNewTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNewTimerView.swift; sourceTree = "<group>"; };
 		3CE2C8182A099DC0008B9EC1 /* KnowYourWorth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnowYourWorth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE2C81B2A099DC0008B9EC1 /* KnowYourWorthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowYourWorthApp.swift; sourceTree = "<group>"; };
 		3CE2C81D2A099DC0008B9EC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				3C6AB27D2A12B48D00D6F709 /* NewTimeSheetView.swift */,
+				3C6AB2862A12EEB900D6F709 /* TopNewTimerView.swift */,
 			);
 			path = "New Time Sheet";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				3CE4D5AF2A11BD6200BE1F8B /* TabBarButton.swift in Sources */,
 				3C6AB2852A12B77B00D6F709 /* LineShape.swift in Sources */,
 				3C6AB2812A12B56D00D6F709 /* XShape.swift in Sources */,
+				3C6AB2872A12EEB900D6F709 /* TopNewTimerView.swift in Sources */,
 				3CE2C8362A09CC28008B9EC1 /* RowView.swift in Sources */,
 				3CE2C81E2A099DC0008B9EC1 /* ContentView.swift in Sources */,
 				3CE2C83A2A09D9A1008B9EC1 /* ItemListView.swift in Sources */,

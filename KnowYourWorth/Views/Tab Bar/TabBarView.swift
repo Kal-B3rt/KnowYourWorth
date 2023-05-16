@@ -13,7 +13,7 @@ enum Tabs: Int{
 }
 
 struct TabBarView: View {
-    
+    @Binding var FullScreensheet: Bool
     @Binding var selectedTab: Tabs
     var body: some View {
         HStack {
@@ -26,7 +26,7 @@ struct TabBarView: View {
             .tint(.secondary)
             
             Button {
-                //Overview with charts
+                FullScreensheet.toggle()
             } label: {
                 VStack(alignment: .center, spacing: 4){
                     Image(systemName: "plus.square.fill")
@@ -54,6 +54,6 @@ struct TabBarView: View {
 
 struct TabBarView_Previews: PreviewProvider {
     static var previews: some View {
-        TabBarView(selectedTab: .constant(.overview))
+        TabBarView(FullScreensheet: .constant(false), selectedTab: .constant(.list))
     }
 }

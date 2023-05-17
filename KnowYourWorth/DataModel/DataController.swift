@@ -8,7 +8,7 @@
 import CoreData
 import Foundation
 
-class DataController {
+class DataController: ObservableObject {
     static let shared = DataController()
 
     static var preview: DataController = {

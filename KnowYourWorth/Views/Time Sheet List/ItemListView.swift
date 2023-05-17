@@ -22,7 +22,7 @@ struct ItemListView: View {
                     .foregroundColor(.secondary)
             }
                 List {
-                    ForEach(items) { item in
+                    ForEach(items, id: \.id) { item in
                             RowView(item: item)
                     }
                     

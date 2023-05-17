@@ -11,7 +11,7 @@ struct RowView: View {
     @ObservedObject var item: Item
         
     var body: some View {
-        NavigationLink(destination: EditItemView(item: item)){
+        NavigationLink(destination: EmptyView()){
             HStack{
                 VStack(alignment: .leading){
                     Text(item.itemTitle)

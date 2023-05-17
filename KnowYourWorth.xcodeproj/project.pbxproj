@@ -155,12 +155,12 @@
 		3CE2C8322A09CBF2008B9EC1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3C6AB27F2A12B55C00D6F709 /* Custom Shapes */,
 				3CE2C81D2A099DC0008B9EC1 /* ContentView.swift */,
 				3C6AB27B2A12B46B00D6F709 /* OverView */,
 				3C6AB27C2A12B47E00D6F709 /* New Time Sheet */,
 				3C6AB27A2A12B44200D6F709 /* Time Sheet List */,
 				3CE4D5B42A12A2DE00BE1F8B /* Weekly Chart */,
+				3C6AB27F2A12B55C00D6F709 /* Custom Shapes */,
 				3CE4D5AB2A11B11C00BE1F8B /* Tab Bar */,
 				3CE4D5A92A0F220900BE1F8B /* EditItemView.swift */,
 			);
